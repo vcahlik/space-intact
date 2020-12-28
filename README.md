@@ -11,5 +11,5 @@ Currently includes (only) 4 levels, each introducing a new weapon and a new enem
 ## How to run
 
 1. Clone the repository, `cd` into it
-2. Build the Maven project: `mvn package`
-3. Run the game using `mvn exec:java`, or by directly executing the built JAR using `java -jar <PATH_TO_JAR>`
+2. Build the Maven project by running: `mvn package`
+3. Run the game with the command `mvn exec:java`, or by directly executing the JAR in the build directory using `java -jar <PATH_TO_JAR>`
